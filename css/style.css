@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Copse|Delius+Swash+Caps|Gabriela|Unkempt&display=swap');
 
 #header {
-	background-image: url('../Assets/Delani_A.jpg');
+	background-image: url('./Assets/Delani_A.jpg');
 	width: 80%;
 }
 .bg-image {
-	background-image: url("../Assets/Delani_B.jpg");
+	background-image: url("./Assets/Delani_B.jpg");
 }
