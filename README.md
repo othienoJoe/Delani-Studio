@@ -9,7 +9,9 @@
 # What is in the website;
 ### The website has a page that briefly describes the website and what evryone expects to find in/with us.
 ## The website has;
+
 <img src="/Assets/Delani Studio.jpg" alt="Delani Studio"/>
+
 * A logo
 * Images
 * Icons
