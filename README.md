@@ -9,6 +9,8 @@
 # What is in the website;
 ### The website has a page that briefly describes the website and what evryone expects to find in/with us.
 ## The website has;
+![Delani Studio](file:///home/moringa/Desktop/Delani-Studio/Assets/Delani%20Studio.jpg)
+<img src="/Assets/Delani Studio.jpg" alt="Delani Studio"/>
 * A logo
 * Images
 * Icons
