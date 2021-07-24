@@ -20,3 +20,6 @@
 .container :hover .overlay {  
   opacity: 1.5;  
 }
+footer {
+	margin-top: 3em;
+}
