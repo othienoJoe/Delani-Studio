@@ -7,3 +7,16 @@
 .bg-image {
 	background-image: url("./Assets/Delani_B.jpg");
 }
+.container {  
+  position: absolute;   
+  bottom: 0;   
+  background: rgba(0, 0, 0, 0.2);   
+  width: 80%;  
+  opacity:0;   
+  transition: .9s ease;  
+  font-size: 25px;  
+  padding: 10px;  
+}
+.container :hover .overlay {  
+  opacity: 1.5;  
+}

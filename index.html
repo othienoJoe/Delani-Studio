@@ -9,7 +9,7 @@
 	<link href="style.css" rel="stylesheet">
 </head>
 <body>
-  <div class="container">
+  <header>
 		<div id="header">
 			<div class="text-center">
 				<img src="./Assets/logo.png" alt="logo" id="logo" height="30px">
@@ -20,7 +20,11 @@
 			<div class="mouse-click"></div>
       <a href="#about-us"><img src="./Assets/mouse_click.png" alt=" mouse_click" id="mouse-click"></a> 
 		</div>
+  </header>
 
+  <hr>
+
+  <div class="container">
 		<div class="text-center">
 			<h3>ABOUT US</h3>
 			<p>When you work with us,you are part of a team of committed collaborators. All aspects of our software development process are integrated,interactive<br>and agile.</p>
@@ -39,10 +43,12 @@
 		</div>
   </div>
 
-	<div class="container">
-		<h2 class="headings">WHAT WE DO ;</h2>
-		<div class="row">
-      <div class="col-4">
+	<hr>
+
+	<div class="container" >
+		<h2 class="text-center"><u>WHAT WE DO ;</u></h2>
+		<div class="row row-cols-2 row-cols-lg-4 g-2 g-lg-3">
+      <div class="col-md-3">
 				<div id="design">
 					<h2 class="title">DESIGN</h2>
 					<p>The design practices that we offer give a full range of services including brand strategy, interaction and visual design and a user's experience testing.</p>
@@ -54,7 +60,7 @@
 				</div>
 			</div>
 
-			<div class="col-4">
+			<div class="col-md-3">
 				<div id="development">
 					<h2 class="title">DEVELOPMENT</h2>
 					<p>All engineers are fluent in the latest enterprise, mobile and web development technologies.</p>
@@ -67,7 +73,7 @@
         </div>
 			</div>
   
-      <div class="col-4">
+      <div class="col-md-3">
 				<div id="product">
 					<h2 class="title">PRODUCT MANAGEMENT</h2>
 					<P>Planning and development is interactive. Because we are constantly coding and testing,the products we build are always ready to go live.</P>
@@ -81,5 +87,79 @@
 		</div>
 	</div>
 
+	<hr>
+
+
+	<div class="container">
+    <h2 class="text-center">PORTFOLIO</h2>
+		<div class="row row-cols-2 row-cols-lg-4 g-2 g-lg-3">
+			<div class="col">
+        <img id="work4" src="./Assets/work4.jpg">
+			  <div class="overlay">Dark Studio</div>
+			</div>
+			<div class="col">
+			  <img id="work3" src="./Assets/work3.jpg">
+				<div class="overlay">Ontario Security</div>
+			</div>
+			<div class="col">
+			  <img id="work2" src="./Assets/work2.jpg">
+				<div class="overlay">Brusque<br>Background</div>
+			</div>
+			<div class="col">
+			  <img id="work1" src="./Assets/work1.jpg">
+				<div class="overlay">Jim Carey</div>
+			</div>
+			<br>
+			<div class="col">
+			  <img id="work5" src="./Assets/work5.jpg">
+				<div class="overlay">HAVE A <br>GOOD DAY</div>
+			</div>
+			<div class="col">
+			  <img id="work6" src="./Assets/work6.jpg">
+				<div class="overlay">Calculator</div>
+			</div>
+			<div class="col">
+			  <img id="work7" src="./Assets/work7.jpg">
+				<div class="overlay">Logo</div>
+			</div>
+			<div class="col">
+			  <img id="work8" src="./Assets/work8.jpg">
+				<div class="overlay">Giraffe<br>Restaurant</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid contact">
+    <h2>CONTACT US</h2>
+
+    <form id="form34A" action="https://gmail.us3.list-manage.com/subscribe/post" method="POST">
+      <input type="hidden" name="u" value="e71bed4d6ae5a7c984dfe28b0">
+      <input type="hidden" name="id" value="dbf7e27685">
+      <div class="form-group form-inline">
+        <input type="text" class="form-control" placeholder = "Name...." name="MERGE1" id="MERGE1" size="25" value="">
+        <input type="email" class="form-control"  placeholder = "Email...." autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" size="25" value="">
+      </div>
+      <div class="form-group">
+        <textarea class="form-control" rows="8" id="comment" placeholder = "Your message here...."></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary col-md-1">Submit</button>
+    </form>
+  </div>
+  <footer>
+    <img src="./Assets/twitter.png" alt="twitter">
+    <img src="./Assets/dribble.png" alt="dribble">
+    <img src="./Assets/facebook.png" alt="facebook">
+    <img src="./Assets/g_plus.png" alt="g_plus">
+    <img src="./Assets/skype.png" alt="skype">
+    <img src="./Assets/stumble_upon.png" alt="stumble_upon">
+    <img src="./Assets/behance.png" alt="behance">
+    <img src="./Assets/pinterest.png" alt="pinterest">
+    <img src="./Assets/flickr.png" alt="flickr">
+    <img src="./Assets/you_tube.png" alt="youtube">
+    <p>DELANI STUDIO</p>
+    <p>&copy;2021</p>
+  </footer>
+  <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us3.list-manage.com","uuid":"e71bed4d6ae5a7c984dfe28b0","lid":"dbf7e27685","uniqueMethods":true}) })</script>
+  <script src="js/jquery-3.4.1.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html> 
