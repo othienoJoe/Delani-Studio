@@ -1,114 +1,52 @@
-@import url('https://fonts.googleapis.com/css?family=Copse|Delius+Swash+Caps|Gabriela|Unkempt&display=swap');
-.header {
-	background-image: url("./Assets/Delani_A.jpg");
-	width: 80%;
-	position: absolute;   
-  bottom: 0;   
-  background: rgba(0, 0, 0, 0.2); 
-  opacity:0;   
-  transition: .9s ease;  
-  font-size: 25px;  
-  padding: 10px; 
+#showcase{
+	background-image: url("../assets/backgrounds/h_img.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: center center;
+	color: white;
+	height: 80vh;
+	padding-top: 300px;
 }
-#logo{
-  margin-top: 12px;
-  margin-bottom: 24px;
-  width: 70px;
-  height: 70px;
+#mouse{
+	padding-top: 120px;
 }
-.header:hover .overlay {  
-  opacity: 1.5;  
+
+#service{
+	background-image: url('../assets/backgrounds/s_image.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: center center;
+	color: white;
+	padding: 100px;
 }
-.text-center {
-  padding-bottom: 30px;
-  padding-top:40px;
-  font-family: 'Copse', serif;
+
+#designInfo, #developmentInfo, #productInfo{
+	display: none;
 }
-#about{
-  font-family: 'Gabriela', serif;
+#contact{
+	background-image: url('../assets/backgrounds/c_image.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: center center;
+	height: 50vh;
 }
-.services {
-  padding-bottom: 30px;
-  padding-top:40px;
-  font-family: 'Copse', serif;
+
+input[type=text], input[type=email], #message{
+	background: transparent;
 }
-.what-we-do {
-	display: flex;
-	justify-content: space-evenly;
-  font-family: 'Quattrocento',serif;
-  padding-top: 40px;
+.form-control::-webkit-input-placeholder{
+	color: white;
 }
-.what-we-do #design-image {
-  padding-bottom: 35px;
-}
-#product, #development, #design{
-  display: none;
-  font-family: 'Copse', serif;
-  font-size: 16px;
-}
-#product .title, #development .title, #design .title{
-  font-size: 20px;
-  font-weight: 600;
-}
-#overlay,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
-  display: none;
-  color: black;
-  width: 100%;
-  height: 100%;
-  background-color:rgba(255, 255, 255, 0.456);
-  position:absolute;
-  top: 20px;
-  left: 35px;
-  font-weight: bold;
-  text-align: center;
-  font-size: 30px;
-  padding-top: 50%;
-  font-family: 'Delius Swash Caps', cursive;
-}
-@media only screen and (max-width: 755px){
-  #overlay,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8 {
-    width: 100%;
-    height: 100%;
-    top: 20px;
-    left: 16px;
-    padding-top: 20%;
-    /* font-size: 16px; */
-  }
-  .col-md-3 img {
-    width:100%px;
-    margin: 20px;
-  }
-  #portfolio {
-    margin-left:8%;
-    margin-right: 16%; 
-	}
-}
-@media only screen and (min-width: 825px) {
-  #overlay,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8 {
-    width: 100%;
-    height: 100%;
-    top: 20px;
-    left: 20px;
-    padding-top:30%; 
-  }
-  .col-md-3 img{
-    width: 400px;
-    margin: 20px;
-  }
-  #portfolio{
-    margin-left:10%;
-    margin-right: 10%; 
-  }
-}
-footer {
-	text-align: center;
-	margin-top: 3em;
-	padding-top: 30px;
-  font-family: 'Delius Swash Caps', cursive;
-}
-footer p{
-  margin-top: 10px;
-}
-.container-fluid {
-	width: 70%;
+
+#overlay1, #overlay2, #overlay3, #overlay4, #overlay5, #overlay6, #overlay7, #overlay8{
+	width: 200px;
+	height: 200px;
+	margin: auto;
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+	padding: 50px;
+	border: 5px solid white;
+	background-color: rgba(10, 10, 10, 0.4);
+	display: none;
 }
