@@ -47,6 +47,6 @@ input[type=text], input[type=email], #message{
 	font-size: 15px;
 	padding: 50px;
 	border: 5px solid white;
-	background-color: rgba(10, 10, 10, 0.4);
+	background-color: rgba(5, 4, 4, 0.76);
 	display: none;
 }
