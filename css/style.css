@@ -50,3 +50,6 @@ input[type=text], input[type=email], #message{
 	background-color: rgba(5, 4, 4, 0.76);
 	display: none;
 }
+/* form h5 {
+	color: blue;
+} */
